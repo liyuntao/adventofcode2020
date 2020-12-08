@@ -53,8 +53,8 @@ fn main() {
         .collect();
 
     let q1_res: usize = lines.iter().filter(|l| jduge_q1(l)).count();
-    println!("result of q01 is {}", q1_res);
+    println!("result of q1 is {}", q1_res);
 
     let q2_res: usize = lines.iter().filter(|l| jduge_q2(l)).count();
-    println!("result of q02 is {}", q2_res);
+    println!("result of q2 is {}", q2_res);
 }

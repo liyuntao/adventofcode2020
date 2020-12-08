@@ -23,7 +23,7 @@ fn main() {
     let numbers = read_input("day01.txt").unwrap();
     for i in numbers.iter() {
         if numbers.contains(&(2020 - i)) {
-            println!("result of q01 is {}", i * (2020 - i));
+            println!("result of q1 is {}", i * (2020 - i));
             break;
         }
     }
@@ -31,7 +31,7 @@ fn main() {
     for i in numbers.iter() {
         let two_sum_res = two_sum(&numbers, i.clone(), 2020 - i);
         if two_sum_res > 0 {
-            println!("result of q02 is {}", i * two_sum_res);
+            println!("result of q2 is {}", i * two_sum_res);
             break;
         }
     }

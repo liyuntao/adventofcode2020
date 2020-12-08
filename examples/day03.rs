@@ -37,7 +37,7 @@ fn q1(col_count: usize, row_count: usize, data_set: &HashMap<(usize, usize), boo
 fn main() {
     let (col_count, row_count, grid) = gen_grid();
     let q1_res = q1(col_count, row_count, &grid);
-    println!("result of q01 is {}", q1_res);
+    println!("result of q1 is {}", q1_res);
 
     // let q2_res: usize = lines.iter().filter(|l| jduge_q2(l)).count();
     // println!("result of q02 is {}", q2_res);

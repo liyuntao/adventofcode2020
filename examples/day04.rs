@@ -139,12 +139,12 @@ fn main() {
         .iter()
         .filter(|&passport| is_valid_passport_q1(passport))
         .count();
-    println!("result of q01 is {}", q1);
+    println!("result of q1 is {}", q1);
 
     let q2 = passport_list
         .iter()
         .filter(|&passport| is_valid_passport_q1(passport))
         .filter(|&passport| is_valid_passport_q2(passport))
         .count();
-    println!("result of q01 is {}", q2);
+    println!("result of q2 is {}", q2);
 }
